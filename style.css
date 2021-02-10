@@ -1,6 +1,6 @@
 html, body {
   margin: 0;
-  background-color: #1d1e22;
+  /*background-color: #1d1e22;*/
   font-family: 'Raleway Dots', sans-serif;
 }
 h2 {
@@ -39,8 +39,9 @@ section #services li div {
   font-size: 3.4em;
   text-align: center;
   line-height: 150px;
-  border-radius: 5px;
-  background-color: #333333;
+  border-radius: 10px;
+  /*background-color: #333333;*/
+  background-color: #192e42;
   transition: all 0.5s ease;
 }
 section #services li a {
@@ -56,7 +57,26 @@ section #services li span {
   display: block;
   padding: 15px 0px;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 1.2em;
   text-align: center;
+}
+
+#videoDiv {
+  z-index: -5;
+  background-color: #1d1e22;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.33;
+  z-index: -100;
 }
