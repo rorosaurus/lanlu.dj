@@ -50,6 +50,7 @@ section #services li a {
 }
 section #services li div:hover {
   border-radius: 100px;
+  box-shadow: 0 0 0 2px #33c6ff;
 }
 section #services li span {
   width: 150px;
