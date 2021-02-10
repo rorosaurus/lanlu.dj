@@ -4,7 +4,7 @@ html, body {
   font-family: 'Raleway Dots', sans-serif;
 }
 h2 {
-  margin: 80px 0px 0px;
+  margin: 10vh 0px 0px 0px;
   color: #33c6ff;
   font-size: 3em;
   text-transform: uppercase;
@@ -15,7 +15,6 @@ h3 {
   margin: 20px 0px 40px;
   color: #fff;
   font-size: 1.2em;
-  /*text-transform: uppercase;*/
   text-align: center;
 }
 ul {
@@ -28,16 +27,15 @@ section #services {
 }
 section #services li {
   width: 150px;
-  height: 140px;
+  height: 170px;
   display: inline-block;
-  margin: 20px;
+  margin: 15px 15px 50px 15px;
   list-style: none;
   vertical-align: top;
 }
 section #services li div {
   width: 150px;
   height: 150px;
-  /*color: #74d4b3;*/
   font-size: 3.4em;
   text-align: center;
   line-height: 150px;
