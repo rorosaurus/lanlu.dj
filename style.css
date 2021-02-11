@@ -11,7 +11,7 @@ h2 {
   text-align: center;
   letter-spacing: 5px;
   opacity:0;
-  animation: 1.5s ease 0s 1 fadeIn;
+  animation: 1.25s ease 0.25s 1 fadeIn;
   animation-fill-mode: forwards;
 }
 h3 {
@@ -20,7 +20,7 @@ h3 {
   font-size: 1.2em;
   text-align: center;
   opacity:0;
-  animation: 1.5s ease 1.25s 1 fadeIn;
+  animation: 1.25s ease 1.33s 1 fadeIn;
   animation-fill-mode: forwards;
 }
 ul {
