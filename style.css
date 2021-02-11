@@ -65,9 +65,12 @@ section #services li a {
   color: #33c6ff;
   text-decoration: none;
 }
-section #services li div:hover {
+section #services li:hover div{
   border-radius: 100px;
   box-shadow: 0 0 0 4px #33c6ff;
+}
+section #services li:hover span{
+  font-size: 1.3em;
 }
 section #services li span {
   width: 130px;
@@ -78,6 +81,7 @@ section #services li span {
   text-transform: lowercase;
   font-size: 1.2em;
   text-align: center;
+  transition: all 0.5s ease;
 }
 
 @keyframes fadeIn {
