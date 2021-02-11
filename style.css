@@ -11,7 +11,7 @@ h2 {
   text-align: center;
   letter-spacing: 5px;
   opacity:0;
-  animation: 1s ease 0s 1 fadeIn;
+  animation: 1.5s ease 0s 1 fadeIn;
   animation-fill-mode: forwards;
 }
 h3 {
@@ -114,6 +114,6 @@ section #services li span {
   min-height: 100%;
   opacity: 0;
   z-index: -100;
-  animation: 1.5s ease 1.25s 1 fadeInVideo;
+  animation: 3s ease 2.5s 1 fadeInVideo;
   animation-fill-mode: forwards;
 }
