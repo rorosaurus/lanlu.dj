@@ -71,6 +71,7 @@ section #services li:hover div{
 }
 section #services li:hover span{
   font-size: 1.3em;
+  color: #33c6ff;
 }
 section #services li span {
   width: 130px;
